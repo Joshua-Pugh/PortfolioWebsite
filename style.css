@@ -81,6 +81,7 @@ h3 { margin-bottom: 0.7rem; font-size: 1.45rem; line-height: 1.2; }
 .project-details li { position: relative; margin-bottom: 0.75rem; padding-left: 1.25rem; color: var(--muted); }
 .project-details li::before { position: absolute; left: 0; color: var(--rust); content: "+"; font-weight: 800; }
 .text-link { color: var(--green); font-weight: 800; }
+.repository-note { margin: 1.15rem 0 0; color: var(--muted); font-size: 0.82rem; }
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
 .project-compact { min-height: 480px; }
 .project-number { display: grid; height: 160px; place-items: center; background: var(--rust); color: #fff; font-family: "Manrope", sans-serif; font-size: 4rem; font-weight: 800; }
